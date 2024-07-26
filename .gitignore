@@ -1,0 +1,86 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build-related files
+.vscode/
+*.vscode/
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+.nuget/
+
+# Ignore Rider IDE files
+.idea/
+*.sln.iml
+
+# Ignore JetBrains Rider .idea/workspace.xml
+.idea/workspace.xml
+
+# Ignore VS Code workspace settings file
+.vscode/settings.json
+
+# Ignore common auto-generated folders and files
+/.vs/
+*.csproj.FileListAbsolute.txt
+*.rsuser
+*.sln.ide
+*.cache/
+**/.DS_Store
+**/._*
+*.lock.json
+project.lock.json
+**/*.pidb
+*.coverage
+*.coveragexml
+*.testresults
+
+# Ignore deployment-related files
+*.deploy.props
+*.pubxml
+*.pubxml.user
+*.publish.xml
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore configuration files
+appsettings*.json
+secrets.json
+
+# Ignore files related to Azure Functions and serverless computing
+local.settings.json
+
+# Ignore NPM files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore temporary files
+[Tt]emp/
+
+# Ignore files from various IDEs
+*.swp
+*.swo
+
+# Ignore Recycle Bin used on Windows
+$RECYCLE.BIN/
+
+# Ignore build directories and files created by build tools
+_build/
+dist/
+dist-ssr/
+
+# Ignore crash logs
+*.dmp
+
+# Ignore specific to your application (if any)
+# Add any other file patterns or directories specific to your project that should be ignored
+

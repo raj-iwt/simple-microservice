@@ -1,0 +1,6 @@
+@MicroserviceWithCircuitBreaker_HostAddress = http://localhost:5298
+
+GET {{MicroserviceWithCircuitBreaker_HostAddress}}/api/joke
+Accept: application/json
+
+###
